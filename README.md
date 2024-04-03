@@ -1,6 +1,6 @@
 ## Frontend server
 
-Enter to frontend\dbproject with cd
+Enter to dbdiagram\frontend\dbproject with cd
 
 ```bash
 npm install
@@ -16,4 +16,22 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+## Backend server
+
+Enter to dbdiagram\backend\dbproject with cd
+
+Run the development server:
+
+``` bash
+mvnw spring-boot:run
+```
+
+## Starting the application
+
+To start the application, type in browser URL:
+
+``` bash
+http://localhost:3000/
 ```
